@@ -1,6 +1,5 @@
 from django.apps import AppConfig
 
-
-class KnihyConfig(AppConfig):
+class BooksConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'knihy'
+    name = 'APP.books'
